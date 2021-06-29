@@ -3,6 +3,7 @@ from turtle import Turtle
 START_POSITIONS = [(-350, 0), (350, 0)]
 PADDLES = []
 
+
 class Paddle(Turtle):
     def __init__(self, position):
         super().__init__()
